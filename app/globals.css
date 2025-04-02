@@ -1,21 +1,30 @@
 @import "tailwindcss";
 
-:root {
+@theme {
+    /* Fonts */
+    --font-barlow: var(--font-barlow), sans-serif;
+    --font-fraunces: var(--font-fraunces), serif;
+
+    /* Font size */
+    --text-h1-small: 2.5rem;
+
     /* Primary Colors */
-    --soft-red: hsl(7, 99%, 70%);
-    --yellow: hsl(51, 100%, 49%);
-    --dark-desaturated-cyan: hsl(167, 40%, 24%);
-    --dark-blue: hsl(198, 62%, 26%);
-    --dark-moderate-cyan: hsl(168, 34%, 41%);
+    --color-soft-red: hsl(7, 99%, 70%);
+    --color-yellow: hsl(51, 100%, 49%);
+    --color-dark-desaturated-cyan: hsl(167, 40%, 24%);
+    --color-dark-blue: hsl(198, 62%, 26%);
+    --color-dark-moderate-cyan: hsl(168, 34%, 41%);
 
     /* Neutral Colors */
-    --very-dark-desaturated-blue: hsl(212, 27%, 19%);
-    --very-dark-grayish-blue: hsl(213, 9%, 39%);
-    --dark-grayish-blue: hsl(232, 10%, 55%);
-    --grayish-blue: hsl(210, 4%, 67%);
-    --white: hsl(0, 0%, 100%);
-}
+    --color-very-dark-desaturated-blue: hsl(212, 27%, 19%);
+    --color-very-dark-grayish-blue: hsl(213, 9%, 39%);
+    --color-dark-grayish-blue: hsl(232, 10%, 55%);
+    --color-grayish-blue: hsl(210, 4%, 67%);
+    --color-white: hsl(0, 0%, 100%);
 
-body {
-    font-family: Bar, Helvetica, sans-serif;
+    /* Spacing */
+    --spacing-s: 2rem;
+    --spacing-m: 3.25rem;
+    --spacing-l: 4rem;
+    --spacing-xl: 6rem;
 }
