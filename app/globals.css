@@ -7,6 +7,10 @@
 
     /* Font size */
     --text-h1-small: 2.5rem;
+    --text-h2-small: 2rem;
+    --text-h3-small: 1.75rem;
+    --text-base: 1.125rem;
+    --text-small: 0.94rem;
 
     /* Primary Colors */
     --color-soft-red: hsl(7, 99%, 70%);
@@ -23,6 +27,7 @@
     --color-white: hsl(0, 0%, 100%);
 
     /* Spacing */
+    --spacing-xs: 1.5rem;
     --spacing-s: 2rem;
     --spacing-m: 3.25rem;
     --spacing-l: 4rem;

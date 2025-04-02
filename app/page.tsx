@@ -1,11 +1,11 @@
 import Hero from "@/components/Hero";
-import LandingPageCards from "@/components/LandingPageCards";
+import LpCards from "@/components/LandingPageCards/LpCards";
 
 const Home = () => {
     return (
         <>
             <Hero />
-            <LandingPageCards />
+            <LpCards />
         </>
     );
 };
