@@ -1,22 +1,5 @@
 import type { Metadata } from "next";
-import { Barlow, Fraunces } from "next/font/google";
 import "./globals.css";
-
-const barlow = Barlow({
-    subsets: ["latin"],
-    display: "swap",
-    variable: "--font-barlow",
-    weight: ["600"],
-    style: ["normal", "italic"],
-});
-
-const fraunces = Fraunces({
-    subsets: ["latin"],
-    display: "swap",
-    variable: "--font-fraunces",
-    weight: ["700", "900"],
-    style: ["normal", "italic"],
-});
 
 export const metadata: Metadata = {
     title: "Create Next App",
@@ -30,9 +13,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={`${barlow.variable} ${fraunces.variable}`}>
-                {children}
-            </body>
+            <body>{children}</body>
         </html>
     );
 }
