@@ -9,6 +9,7 @@
     --text-h1-small: 2.5rem;
     --text-h2-small: 2rem;
     --text-h3-small: 1.75rem;
+    --text-h4-small: 1rem;
     --text-base: 1.125rem;
     --text-small: 0.94rem;
 
@@ -31,5 +32,6 @@
     --spacing-s: 2rem;
     --spacing-m: 3.25rem;
     --spacing-l: 4rem;
+    --spacing-section: 5.4rem;
     --spacing-xl: 6rem;
 }
