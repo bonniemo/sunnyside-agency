@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const TransformTxt = () => {
     return (
-        <section className="py-l px-s text-center">
+        <section className="py-l md:p-largest px-s text-center">
             <h2 className="text-h2-small font-fraunces font-bold">
                 Transform your <span className="block">brand</span>
             </h2>
