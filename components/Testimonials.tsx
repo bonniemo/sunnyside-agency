@@ -3,11 +3,11 @@ import { testimonials } from "./testimonialsData";
 
 const Testimonials = () => {
     return (
-        <section className="text-center my-section px-xs">
+        <section className="text-center py-section px-xs sm:py-largest sm:px-section">
             <h4 className="text-center text-h4-small text-very-dark-desaturated-blue mb-m">
                 Client testimonials
             </h4>
-            <div className="flex flex-col items-center gap-12">
+            <div className="flex flex-col sm:flex-row items-center gap-12">
                 {testimonials.map((testimonial) => (
                     <div
                         key={testimonial.id}

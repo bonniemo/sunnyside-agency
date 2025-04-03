@@ -10,7 +10,7 @@ import gallerySugarCubesMobile from "../public/mobile/image-gallery-sugar-cubes.
 
 const Gallery = () => {
     return (
-        <article className="grid grid-cols-2">
+        <article className="grid grid-cols-2 sm:grid-cols-4">
             {/* Milk Bottles */}
             <picture className="col-span-1">
                 <source
