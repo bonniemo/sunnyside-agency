@@ -1,5 +1,21 @@
+import Footer from "@/components/Footer";
 import type { Metadata } from "next";
+import { Barlow, Fraunces } from "next/font/google";
 import "./globals.css";
+
+// Barlow (600)
+const barlow = Barlow({
+    subsets: ["latin"],
+    weight: "600",
+    variable: "--font-barlow",
+});
+
+// Fraunces (700, 900)
+const fraunces = Fraunces({
+    subsets: ["latin"],
+    weight: ["700", "900"],
+    variable: "--font-fraunces",
+});
 
 export const metadata: Metadata = {
     title: "Create Next App",
@@ -12,8 +28,11 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
-            <body>{children}</body>
+        <html lang="en" className={`${barlow.variable} ${fraunces.variable}`}>
+            <body>
+                {children}
+                <Footer />
+            </body>
         </html>
     );
 }

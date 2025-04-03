@@ -16,6 +16,7 @@
     /* Primary Colors */
     --color-soft-red: hsl(7, 99%, 70%);
     --color-yellow: hsl(51, 100%, 49%);
+    --color-light-desaturated-cyan: hsl(168, 45%, 70%);
     --color-dark-desaturated-cyan: hsl(167, 40%, 24%);
     --color-dark-blue: hsl(198, 62%, 26%);
     --color-dark-moderate-cyan: hsl(168, 34%, 41%);
@@ -30,6 +31,7 @@
     /* Spacing */
     --spacing-xs: 1.5rem;
     --spacing-s: 2rem;
+    --spacing-section-small: 2.5rem;
     --spacing-m: 3.25rem;
     --spacing-l: 4rem;
     --spacing-section: 5.4rem;
